@@ -39,3 +39,25 @@ print("Py" in word)
 
 # Check if something is NOT inside a string
 print("Java" not in word)
+
+# Slicing
+text = "Python"
+
+print(text[0:3])
+print(text[2:6])
+
+# Modifying strings
+message = "hello world"
+
+print(message.upper())
+print(message.lower())
+print(message.replace("hello", "hi"))
+print(message.strip())
+
+# Concatenating strings
+first_name = "Arnob"
+last_name = "Fardin"
+
+full_name = first_name + " " + last_name
+
+print(full_name)
