@@ -53,6 +53,17 @@ print(message.upper())
 print(message.lower())
 print(message.replace("hello", "hi"))
 print(message.strip())
+# Escape characters
+
+text = "He said \"Python is easy.\""
+
+print(text)
+
+# New line
+print("Hello\nPython")
+
+# Tab
+print("Hello\tPython")
 
 # Concatenating strings
 first_name = "Arnob"
