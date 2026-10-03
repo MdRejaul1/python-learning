@@ -72,3 +72,20 @@ last_name = "Fardin"
 full_name = first_name + " " + last_name
 
 print(full_name)
+# String Practice
+
+# Problem 1
+name = "  arnob fardin  "
+
+name = name.strip().title()
+
+print(name)
+
+
+# Problem 2
+username = "  MdRejaul1  "
+
+username = username.strip().lower()
+
+print(username)
+
