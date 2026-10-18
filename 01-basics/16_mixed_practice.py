@@ -24,3 +24,19 @@ if "mindset" in books:
     print("Book found")
 else:
     print("Book not found")
+
+# Problem 3: Calculate Total Book Stock
+
+books = {
+    "python": 5,
+    "mindset": 0,
+    "atomic habits": 3
+}
+
+x = books.values()
+total = 0
+
+for item in x:
+    total += item
+
+print(total)
