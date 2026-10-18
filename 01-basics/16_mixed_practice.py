@@ -40,3 +40,18 @@ for item in x:
     total += item
 
 print(total)
+
+# Problem 4: Book Inventory Checker
+
+books = {
+    "python": 5,
+    "mindset": 0,
+    "atomic habits": 3
+}
+
+print(books["python"])
+
+if books["mindset"] == 0:
+    print("Out of stock")
+else:
+    print("Available")
