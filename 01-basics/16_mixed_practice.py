@@ -55,3 +55,14 @@ if books["mindset"] == 0:
     print("Out of stock")
 else:
     print("Available")
+ # Problem 5: inventory stock status
+products = ["Laptop", "Mouse", "Keyboard", "Monitor"]
+stock = [10, 0, 3, 7]
+
+for i in range(len(products)):
+    if stock[i] == 0:
+        print(products[i], "Out of Stock")
+    elif stock[i] <= 5:
+        print(products[i], "Low Stock")
+    else:
+        print(products[i], "In Stock")
