@@ -87,3 +87,29 @@ for x in range(len(customers)):
     print("Discount:", discount)
     print("Final Amount:", total)
     print()
+    # problem 7 : product_inventory_discount
+products = ["Book", "Pen", "Bag"]
+prices = [500, 20, 1200]
+stocks = [5, 0, 3]
+
+total_price = 0
+
+for x in range(len(products)):
+    print(products[x], prices[x], stocks[x])
+
+    if stocks[x] >= 1:
+        if prices[x] >= 1000:
+            discount = prices[x] * 15 / 100
+        else:
+            discount = prices[x] * 5 / 100
+
+        print("Discount:", discount)
+
+        Final_Price = prices[x] - discount
+        print("Final Price:", Final_Price)
+
+        total_price += Final_Price
+    else:
+        print("Out of Stock")
+
+print("Total Price:", total_price)
