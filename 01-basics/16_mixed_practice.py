@@ -66,3 +66,24 @@ for i in range(len(products)):
         print(products[i], "Low Stock")
     else:
         print(products[i], "In Stock")
+
+# problem 6 : Online Store Discount Calculator
+
+customers = ["Rahim", "Karim", "Sakib"]
+amounts = [1200, 800, 2500]
+
+for x in range(len(customers)):
+    if amounts[x] >= 2000:
+        discount = amounts[x] * 20 / 100
+    elif amounts[x] >= 1000:
+        discount = amounts[x] * 10 / 100
+    else:
+        discount = 0
+
+    total = amounts[x] - discount
+
+    print("Customer:", customers[x])
+    print("Original Amount:", amounts[x])
+    print("Discount:", discount)
+    print("Final Amount:", total)
+    print()
