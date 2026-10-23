@@ -1,6 +1,5 @@
 
 # Python Mixed Practice
-
 # Problem 1: Bookstore Price Checker
 
 bookstore = (250, 350, 400)
