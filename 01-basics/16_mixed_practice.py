@@ -25,7 +25,6 @@ else:
     print("Book not found")
 
 # Problem 3: Calculate Total Book Stock
-
 books = {
     "python": 5,
     "mindset": 0,
