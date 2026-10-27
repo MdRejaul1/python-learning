@@ -13,7 +13,6 @@ else:
 
 
 # Problem 2: Book Search
-
 books = ["python", "atomic habits", "mindset"]
 
 store = books[0].capitalize()
