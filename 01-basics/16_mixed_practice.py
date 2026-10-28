@@ -11,7 +11,6 @@ if total >= 800:
 else:
     print(False)
 
-
 # Problem 2: Book Search
 books = ["python", "atomic habits", "mindset"]
 
