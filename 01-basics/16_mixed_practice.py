@@ -21,7 +21,7 @@ if "mindset" in books:
     print("Book found")
 else:
     print("Book not found")
-
+    
 # Problem 3: Calculate Total Book Stock
 books = {
     "python": 5,
