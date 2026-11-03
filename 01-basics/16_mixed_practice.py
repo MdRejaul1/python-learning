@@ -38,7 +38,6 @@ for item in x:
 print(total)
 
 # Problem 4: Book Inventory Checker
-
 books = {
     "python": 5,
     "mindset": 0,
