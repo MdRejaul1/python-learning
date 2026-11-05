@@ -63,7 +63,6 @@ for i in range(len(products)):
         print(products[i], "In Stock")
 
 # problem 6 : Online Store Discount Calculator
-
 customers = ["Rahim", "Karim", "Sakib"]
 amounts = [1200, 800, 2500]
 
