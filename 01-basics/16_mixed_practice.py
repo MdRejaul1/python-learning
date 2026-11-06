@@ -36,7 +36,6 @@ for item in x:
     total += item
 
 print(total)
-
 # Problem 4: Book Inventory Checker
 books = {
     "python": 5,
