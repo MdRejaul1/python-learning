@@ -81,6 +81,7 @@ for x in range(len(customers)):
     print("Final Amount:", total)
     print()
 # problem 7 : product_inventory_discount
+
 products = ["Book", "Pen", "Bag"]
 prices = [500, 20, 1200]
 stocks = [5, 0, 3]
