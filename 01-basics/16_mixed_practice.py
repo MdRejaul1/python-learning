@@ -1,4 +1,3 @@
-
 # Python Mixed Practice
 # Problem 1: Bookstore Price Checker
 
